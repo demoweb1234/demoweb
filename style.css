@@ -1,0 +1,125 @@
+body {
+  font-family: "lato", sans-serif "sevillana";
+  line-height: 1.5;
+  color: rgb(136, 56, 105);
+  background-color: rgb(223, 175, 216);
+}
+.container {
+  border-top: 20px solid #c51399;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  color: #c51399;
+  height: 20px;
+  width: auto;
+  margin-left: 20px;
+}
+.img {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  display: inline-block; /* Hiển thị sản phẩm ngang với nhau */
+  width: 200px; /* Đặt kích thước cố định cho mỗi sản phẩm */
+  margin: 10px; /* Tạo khoảng cách giữa các sản phẩm */
+  border: 1px solid #c57acc; /* Đặt viền cho mỗi sản phẩm */
+  padding: 10px; /* Tạo khoảng cách bên trong cho mỗi sản phẩm */
+  background-color: #c57acc;
+}
+/* Styles cho <ul> để hiển thị các <li> ngang hàng */
+.techspecs-list {
+  display: flex; /* Sử dụng flexbox để hiển thị các mục ngang hàng */
+  flex-wrap: wrap; /* Cho phép các mục xuống dòng nếu không đủ không gian */
+  padding: 0; /* Loại bỏ padding mặc định */
+  margin: 0; /* Loại bỏ margin mặc định */
+  list-style: none; /* Loại bỏ các dấu chấm đầu dòng của list */
+}
+
+/* Styles cho <li> để chúng không có các dấu chấm và margins, paddings mặc định */
+.techspecs-list li {
+  margin-right: 10px; /* Tạo khoảng cách giữa các mục */
+}
+
+.product1 {
+  display: inline-block; /* Hiển thị sản phẩm ngang với nhau */
+  width: 200px; /* Đặt kích thước cố định cho mỗi sản phẩm */
+  margin: 10px; /* Tạo khoảng cách giữa các sản phẩm */
+  border: 1px solid #c57acc; /* Đặt viền cho mỗi sản phẩm */
+  padding: 10px; /* Tạo khoảng cách bên trong cho mỗi sản phẩm */
+  background-color: #c57acc;
+}
+h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ảnh {
+  height: 100%;
+  width: 100%;
+}
+
+/* Style cho khung */
+.overlay {
+  background-color: rgb(222, 159, 238);
+  border-radius: 20px;
+  position: absolute;
+  align-items: center;
+  top: 35%;
+  left: 30%;
+  color: rgb(211, 103, 179);
+  padding: 10px;
+  width: 40%;
+  height: 37%;
+}
+.product {
+  height: 60%;
+  width: 60%;
+}
+/* Style cho chữ trên khung */
+h5 {
+  font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+  h5 {
+    font-size: 0.2em;
+  }
+  .overlay {
+    background-color: rgb(222, 159, 238);
+    border-radius: 20px;
+    position: absolute;
+    align-items: center;
+    top: 35%;
+    left: 30%;
+    color: rgb(211, 103, 179);
+    padding: 10px;
+    width: 60%;
+    height: 60%;
+  }
+}
+#slideshow img {
+  width: 100%; /* Hoặc kích thước cụ thể */
+  height: auto; /* Điều chỉnh chiều cao tự động dựa trên chiều rộng */
+  display: none; /* Ẩn tất cả ảnh để bắt đầu */
+}
+
+@media screen and (max-width: 1600px) {
+  h5 {
+    font-size: 0.6em;
+  }
+}
+@media screen and (max-width: 500px) {
+  h5 {
+    font-size: 0.3em;
+  }
+}
+.infor-down-down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c57acc;
+}
